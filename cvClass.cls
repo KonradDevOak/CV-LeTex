@@ -194,13 +194,14 @@
   {\underline{#2}}
 }
 
-\newcommand{\experience}[5]{
+\newcommand{\experience}[6]{
   \begin{itemize}[leftmargin=0cm]\setlength\itemsep{-0.8mm}
     \item[] {{\bf #1}{\hfill \small#2}}
     \item[] {\underline{#3}}
     \item[] #4
+    \item[] #5
   \end{itemize}\vspace{-5.8mm}
-  #5
+  #6
   \vspace{0.01cm}
 }
 
