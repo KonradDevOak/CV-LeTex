@@ -2,9 +2,9 @@
 \NeedsTeXFormat{LaTeX2e}				     % Version of LaTeX package 
 \ProvidesClass{cvClass}[2016/06/03]	 % My custom CV class
 
-\pdfminorversion=5
-\pdfcompresslevel=9
-\pdfobjcompresslevel=2
+% \pdfminorversion
+% \pdfcompresslevel
+% \pdfobjcompresslevel
 
 \pagestyle{empty}
 \usepackage[nomessages]{fp}% http://ctan.org/pkg/fp
