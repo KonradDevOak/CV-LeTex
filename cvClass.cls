@@ -12,9 +12,8 @@
 \usepackage{calc}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{polski}
+\usepackage{fontspec}
 \usepackage{ragged2e}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
 \usepackage{enumitem}
 % \usepackage[showframe]{geometry}
 \usepackage{geometry}
