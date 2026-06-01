@@ -117,6 +117,16 @@
   \vspace{0.1mm}
 }
 
+\newcommand{\educationPL}[4] {
+  \begin{itemize}[leftmargin=0cm]\setlength\itemsep{-0.08cm}
+    \item[] {\large Uczelnia: \bf #1}
+    \ifx&#2&\else\item[] {\large Wydział: #2}\fi
+    \item[] {\large Kierunek: #3}
+    \item[] {\large Tytuł: #4}
+  \end{itemize}
+  \vspace{0.1mm}
+}
+
 \newcommand{\interval}[2] {
   \begin{itemize}[leftmargin=1cm]\setlength\itemsep{-0.08cm}
     \item[] {\bf\large #1}
@@ -197,7 +207,7 @@
   \begin{itemize}[leftmargin=0cm]\setlength\itemsep{-0.8mm}
     \item[] {{\bf #1}{\hfill \small#2}}
     \item[] {\underline{#3}}
-    \item[] #4
+    \ifx&#4&\else\item[] #4\fi
     \item[] #5
   \end{itemize}\vspace{-5.8mm}
   #6

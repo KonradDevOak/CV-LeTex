@@ -1,4 +1,4 @@
-TEX = Konrad_Dabrowski_CV(ENG)
+TEX = Patrycja_Dabrowska_CV(PL)
 DIR = build
 
 .PHONY: all clean
