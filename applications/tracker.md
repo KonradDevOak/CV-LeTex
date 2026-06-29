@@ -1,5 +1,11 @@
 # Tracker aplikacji — Konrad Dąbrowski
 
+## Wyniki rozmów kwalifikacyjnych
+
+| Firma | Stanowisko | Data rozmowy | Wynik | Uwagi |
+|-------|-----------|-------------|-------|-------|
+| N-iX | Senior Fullstack .NET | ~2026-06 | ❌ Odrzucony po rozmowie | Mocne strony: code review (async .Result, magic strings, DI), multi-tenant design. Do poprawy: fundamenty JS/TS (event loop, closures, runtime type safety), złożoność algorytmiczna (O(1) dict vs O(n) list) |
+
 ## Sesja 10.06.2026 — JustJoin.it
 
 | # | Firma | Stanowisko | Portal | Data | Status |
@@ -13,6 +19,45 @@
 | 7 | Comarch | .NET Developer (Angular) | JustJoin.it | — | ❌ Oferta wygasła |
 | 8 | Cyclad | Tech Lead (Angular & .NET) | JustJoin.it | 2026-06-10 | ✅ Wysłane |
 | 9 | Sky Quant | Senior C# Developer | JustJoin.it | 2026-06-10 | ✅ Wysłane |
+
+## Sesja 19.06.2026 — wyszukiwanie (JustJoin.it + NoFluffJobs)
+
+Sesja wyszukiwania — brak wysłanych aplikacji (wysyłka samodzielna przez Konrada).  
+Zmiana kryteriów: poszukiwanie **Mid / Senior** (bez ról liderskich), zdalnie lub Trójmiasto Hybrid.  
+Wyniki zapisane w `applications/pending-2026-06-19.md`.
+
+| Portal | Przeszukano | Po filtrze | Uwagi |
+|--------|------------|------------|-------|
+| JustJoin.it | 351 ofert (.NET Mid+Senior) | ~93 oferty | API `candidate-api/offers`, paginacja `&from=N` |
+| NoFluffJobs | 63 oferty (C# Mid+Senior backend) | 9 ofert | SSR state, 4 strony po 20 ofert |
+
+**Kluczowe nowe oferty (JustJoin.it):**
+- Be in IT — Senior FullStack Developer (.NET + Angular) — Remote
+- Billennium — Full Stack Developer (.Net & Angular) — Remote
+- Shimi — Senior .NET (Web) — Remote (nowa obok Angular)
+- Consid / Plenti / Antal — Senior .NET — Gdańsk Hybrid
+
+**Kluczowe nowe oferty (NoFluffJobs):**
+- Link Group — Senior C#/.NET Developer — Remote
+- ESCOLA — Senior C# (.NET) Developer — Remote
+- Infoniqa Poland — Senior C# Engineer — Remote
+- iteo S.A. — .NET Developer — Remote
+
+**Oferty z poprzedniej sesji (16.06) — nadal aktywne (11 szt.):**  
+Shimi, DCG, Future Mind, BMS (x2), Angry Nerds, N-iX, Sigma Software, Santander, Fabrity, CodeTwo.  
+ITFS — prawdopodobnie wygasła (nie pojawiła się w API).
+
+---
+
+## Sesja 15.06.2026 — JustJoin.it + zewnętrzne ATS
+
+| # | Firma | Stanowisko | Portal | Data | Status |
+|---|-------|-----------|--------|------|--------|
+| 1 | JIT Team | Senior Fullstack .NET/Angular | traffit.com | 2026-06-15 | ✅ Wysłane |
+| 2 | P&P Solutions | Senior Fullstack .NET Developer | tomhrm.app | 2026-06-15 | ✅ Wysłane |
+| 3 | STX Next | Senior Fullstack Dev (.NET + Blazor/Angular) | zewnętrzny ATS | 2026-06-15 | ✅ Wysłane |
+| 4 | TQLO | Development Lead (.NET) | zewnętrzny ATS | 2026-06-15 | ✅ Wysłane |
+| 5 | EPAM Systems | Lead / Senior .NET Engineer | JustJoin.it | 2026-06-15 | ✅ Wysłane |
 
 ## Wcześniejsze aplikacje — JustJoin.it (z historii konta)
 
