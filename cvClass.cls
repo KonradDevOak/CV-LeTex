@@ -41,7 +41,7 @@
 \newcommand{\surname}[1]{#1}
 \newcommand{\dateOfBirth}[1]{#1}
 \newcommand{\address}[1]{#1}
-\newcommand{\phoneNumber}[1]{\Large{\bf{Phone number:}} #1}
+\newcommand{\phoneNumber}[1]{\Large{\bf{Numer telefonu:}} #1}
 \newcommand{\emailAddress}[1]{\Large{\bf{Email:}} #1}
 \newcommand{\linkedin}[2]{\Large{\bf{Linkedin:}} \href{#1}{#2}}
 \newcommand{\github}[2]{\Huge\faGithub/\large\href{#1}{#2}}
